@@ -39,7 +39,7 @@ get_account_balance("your-api-key", "0123456789")
 
 ## API Documentation
 
-For detailed information on the API endpoints and parameters, please refer to the [ghost.toxinum.xyz API documentation](https://ghost.toxinum.xyz/docs).
+For detailed information on the API endpoints and parameters, please refer to the [ghost.toxinum.xyz API documentation](https://ghost.toxinum.xyz/docs.html).
 
 ## Contributing
 
