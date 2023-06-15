@@ -13,29 +13,91 @@ pip install ghostpip
 ## Usage
 
 ```python
-from ghostpip import signup, signin, get_user, get_location, get_sim_info, get_device_info, get_account_balance
+from ghostpip import (
+    signup,
+    signin,
+    get_user,
+    get_location,
+    get_sim_info,
+    get_device_info,
+    get_account_balance,
+    submit_birth_information,
+    submit_nid_information,
+    simulate_talk,
+    teach_chatbot
+)
+```
 
-# Signup a new user
+### Function Examples
+
+Here are some examples of how to use the functions:
+
+#### Signup a new user:
+
+```python
 signup("John Doe", "johndoe@example.com", "password123")
+```
 
-# Signin with an existing user
+#### Signin with an existing user:
+
+```python
 signin("johndoe@example.com", "password123")
+```
 
-# Get user information
+#### Get user information:
+
+```python
 get_user("your-api-key")
+```
 
-# Get location details
+#### Get location details:
+
+```python
 get_location("your-api-key", "0123456789")
+```
 
-# Get SIM information
+#### Get SIM information:
+
+```python
 get_sim_info("your-api-key", "0123456789")
+```
 
-# Get device information
+#### Get device information:
+
+```python
 get_device_info("your-api-key", "0123456789")
+```
 
-# Get account balance
+#### Get account balance:
+
+```python
 get_account_balance("your-api-key", "0123456789")
 ```
+
+#### Submit birth information:
+
+```python
+submit_birth_information("your-api-key", "birth-info", "dob")
+```
+
+#### Submit NID information:
+
+```python
+submit_nid_information("your-api-key", "nid-info", "dob")
+```
+
+#### Simulate talk:
+
+```python
+simulate_talk("your-api-key", "ask", "lc")
+```
+
+#### Teach chatbot:
+
+```python
+teach_chatbot("your-api-key", "ask", "ans", "lc")
+```
+
 
 ## API Documentation
 
